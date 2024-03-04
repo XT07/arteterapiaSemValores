@@ -1,0 +1,195 @@
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.ceramica1 {
+    width: 250px;
+    height: 200px;
+    float: right;
+    margin-right: 400px;
+    border-radius: 10px;
+}
+.ceramica2 {
+    width: 225px;
+    height: 200px;
+    float: left;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+.clear {
+    clear: both;
+}
+.h2Bg {
+    background-color: #D2B48C;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.col {
+    width: 50%;
+    float: left;
+}
+.col2 {
+    margin: 0 auto;
+    width: 31%;
+    padding: 10px;
+    float: left;
+}
+.description {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #c91f12;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.description2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #c23d34;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.positionRight {
+    float: right;
+}
+.colMargin {
+    margin-left: 50px;
+}
+.col3 {
+    width: 55%;
+    float: right;
+}
+.proponente {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 2px solid orange;
+}
+.h4Footer {
+    font-size: 20px;
+}
+.containerFooter {
+    width: 50%;
+    margin: 0 auto;
+}
+.imgBtn {
+    width: 100px;
+    height: 100px;
+}
+.floatLink {
+    bottom: 0;
+    position: fixed;
+    float: right;
+    margin: 30px;
+}
+.inv {
+    display: block;
+}
+.invTrue{
+    display: none;
+}
+@media(max-width: 980px){
+    nav {
+        height: 250px;
+    }
+    nav h1 {
+        font-size: 100px;
+        margin-top: 5%;
+    }
+    .container {
+        width: 95%;
+    }
+    .description {
+        width: 90%;
+        font-size: 40px;
+    }
+    .description2 {
+        width: 90%;
+        font-size: 50px;
+    }
+    .ceramica1 {
+        width: 650;
+        height: 600;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .ceramica2 {
+        margin: 0;
+        margin-top: 60px;
+    }
+    .sbtitke {
+        font-size: 50px;
+    }
+    .colMargin p{
+        font-size: 40px;
+    }
+    .col3 {
+        width: 75%;
+        float: right;
+    }
+    .dps {
+        display: none;
+    }
+    .liTitle {
+        font-size: 40px;
+    }
+    .subtitleLi {
+        font-size: 35px;
+    }
+    .h4Footer {
+        font-size: 50px;
+    }
+    .pFooter{
+        font-size: 35px;
+    }
+    .containerFooter {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .imgBtn {
+        width: 150px;
+        height: 150px;
+    }
+    .colDps {
+        width: 95%;
+        float: none;
+    }
+    .inv {
+        display: none;
+    }
+    .invTrue {
+        display: block;
+    }
+}
